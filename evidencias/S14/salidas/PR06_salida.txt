@@ -1,0 +1,30 @@
+Techo de TI: S/ 468,000 | base operativa ejecutada 2025: S/ 359,909.37 | planificada: S/ 430,560.00
+Capacidad real para proyectos: S/ 108,090.63 (base ejecutada) o S/ 37,440.00 (base planificada)
+Desviacion historica ponderada de inversiones cerradas: 44.8 %
+
+PRESUPUESTO PLURIANUAL - ESCENARIO MEDIO (S/)
+        capex  cambio  conting     opex     total  capacidad  uso_%  holgura  opex_acumulado
+anio                                                                                        
+2027  72000.0  6520.0  15704.0  11100.0  105324.0   108091.0   97.0   2767.0         11100.0
+2028  56000.0  6280.0  12456.0  32400.0  107136.0   108091.0   99.0    955.0         43500.0
+2029  45000.0  6750.0  10350.0  40500.0  102600.0   108091.0   95.0   5491.0         84000.0
+
+RANGO DE INCERTIDUMBRE (total anual de proyectos, S/)
+      total_bajo     total  total_alto
+anio                                  
+2027     88510.0  105324.0    126477.0
+2028     91440.0  107136.0    127453.0
+2029     88200.0  102600.0    121519.0
+
+VERIFICACION 3 - cuadra con la capacidad real de gasto
+ 2027: medio 105,324 vs capacidad 108,091 -> CUADRA | alto 126,477 -> EXCEDE en 18,386
+      gasto de TI total medio 465,233 vs techo 468,000 (99.4 %)
+ 2028: medio 107,136 vs capacidad 108,091 -> CUADRA | alto 127,453 -> EXCEDE en 19,363
+      gasto de TI total medio 467,045 vs techo 468,000 (99.8 %)
+ 2029: medio 102,600 vs capacidad 108,091 -> CUADRA | alto 121,519 -> EXCEDE en 13,428
+      gasto de TI total medio 462,509 vs techo 468,000 (98.8 %)
+ Con base operativa PLANIFICADA la capacidad seria S/ 37,440: el plan excederia el techo en todos los anios.
+
+OPEX recurrente anual al cierre de 2029 (run-rate): S/ 48,600
+
+OPEX acumulado a dic-2029 (bajo / medio / alto): 75,600 84,000 96,600

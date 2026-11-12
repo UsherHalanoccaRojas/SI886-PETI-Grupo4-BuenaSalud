@@ -1,0 +1,42 @@
+NIVELES DE DEPENDENCIA (0 = sin predecesores)
+ nivel 0  P01  puntaje=NN  depende de -
+ nivel 0  P02  puntaje=NN  depende de -
+ nivel 0  P04  puntaje=82.0  depende de -
+ nivel 0  P05  puntaje=69.0  depende de -
+ nivel 0  P07  puntaje=62.0  depende de -
+ nivel 0  P08  puntaje=65.0  depende de -
+ nivel 0  P10  puntaje=51.0  depende de -
+ nivel 1  P03  puntaje=87.0  depende de ['P04']
+ nivel 1  P06  puntaje=60.0  depende de ['P05']
+ nivel 1  P11  puntaje=52.0  depende de ['P10']
+ nivel 2  P09  puntaje=61.0  depende de ['P03', 'P08']
+
+VERIFICACION 1 - dependencias fin-inicio
+ P04 (fin 2027-09) -> P03 (inicio 2028-01): OK
+ P10 (fin 2028-03) -> P11 (inicio 2028-04): OK
+ P05 (fin 2027-03) -> P06 (inicio 2028-04): OK
+ P03 (fin 2028-06) -> P09 (inicio 2029-01): OK
+ P08 (fin 2027-09) -> P09 (inicio 2029-01): OK
+ Dependencias rotas: 0
+
+VERIFICACION 2 - capacidad simultanea por trimestre
+ 2027Q1: 3 proyectos ['P01', 'P02', 'P05'] | con Jefe de Sistemas: 1 -> OK
+ 2027Q2: 3 proyectos ['P01', 'P02', 'P04'] | con Jefe de Sistemas: 2 -> OK
+ 2027Q3: 2 proyectos ['P04', 'P08'] | con Jefe de Sistemas: 1 -> OK
+ 2027Q4: 0 proyectos [] | con Jefe de Sistemas: 0 -> OK
+ 2028Q1: 3 proyectos ['P10', 'P07', 'P03'] | con Jefe de Sistemas: 1 -> OK
+ 2028Q2: 3 proyectos ['P03', 'P11', 'P06'] | con Jefe de Sistemas: 1 -> OK
+ 2028Q3: 1 proyectos ['P06'] | con Jefe de Sistemas: 0 -> OK
+ 2028Q4: 0 proyectos [] | con Jefe de Sistemas: 0 -> OK
+ 2029Q1: 1 proyectos ['P09'] | con Jefe de Sistemas: 0 -> OK
+ 2029Q2: 1 proyectos ['P09'] | con Jefe de Sistemas: 0 -> OK
+ 2029Q3: 1 proyectos ['P09'] | con Jefe de Sistemas: 0 -> OK
+ 2029Q4: 0 proyectos [] | con Jefe de Sistemas: 0 -> OK
+ Trimestres que exceden la capacidad: 0
+
+PROPUESTA DE OLAS A PARTIR DE LOS NIVELES (referencia; la hoja de ruta final es PR05)
+ nivel 0: ['P01', 'P02', 'P04', 'P05', 'P07', 'P08', 'P10']
+ nivel 1: ['P03', 'P06', 'P11']
+ nivel 2: ['P09']
+
+RESULTADO: CORRECTO

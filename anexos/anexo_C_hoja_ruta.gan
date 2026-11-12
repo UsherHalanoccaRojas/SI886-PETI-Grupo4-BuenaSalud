@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="PETI Buena Salud - Hoja de ruta 2027-2029" company="Cadena de Farmacias Buena Salud E.I.R.L." webLink="" view-date="2027-01-04" view-index="0" gantt-divider-location="400" resource-divider-location="300" version="3.2" locale="es">
+ <description/>
+ <view zooming-state="default:5" id="gantt-chart"/>
+ <view id="resource-table"/>
+ <tasks empty-milestones="true">
+  <task id="1" name="Ola 1" color="#8cb6ce" meeting="false" start="2027-01-01" duration="195" complete="0" expand="true">
+   <task id="4" name="P01 Trazabilidad de productos controlados" color="#8cb6ce" meeting="false" start="2027-01-01" duration="129" complete="0" expand="true"></task>
+   <task id="5" name="P02 Adecuacion a la Ley 29733 (datos de salud)" color="#8cb6ce" meeting="false" start="2027-01-01" duration="129" complete="0" expand="true"></task>
+   <task id="6" name="P05 Respaldos completos y prueba de restauracion" color="#8cb6ce" meeting="false" start="2027-01-01" duration="64" complete="0" expand="true"></task>
+   <task id="7" name="P04 Continuidad del conocimiento del POS y la consolidacion" color="#8cb6ce" meeting="false" start="2027-04-01" duration="131" complete="0" expand="true"></task>
+   <task id="8" name="P08 Gobierno de inversiones de TI" color="#8cb6ce" meeting="false" start="2027-07-01" duration="66" complete="0" expand="true"></task>
+  </task>
+  <task id="2" name="Ola 2" color="#a8d5a2" meeting="false" start="2028-01-03" duration="195" complete="0" expand="true">
+   <task id="9" name="P10 Mesa de servicios ligera (incidentes y cambios)" color="#a8d5a2" meeting="false" start="2028-01-03" duration="65" complete="0" expand="true"></task>
+   <task id="10" name="P07 Seguridad basica: MFA ampliado politica y capacitacion" color="#a8d5a2" meeting="false" start="2028-01-03" duration="65" complete="0" expand="true"></task>
+   <task id="11" name="P03 Rediseno de la consolidacion nocturna" color="#a8d5a2" meeting="false" start="2028-01-03" duration="130" complete="0" expand="true"><depend id="7" type="2" difference="0" hardness="Strong"/></task>
+   <task id="12" name="P11 Inventario de activos y control de contratos" color="#a8d5a2" meeting="false" start="2028-04-03" duration="65" complete="0" expand="true"><depend id="9" type="2" difference="0" hardness="Strong"/></task>
+   <task id="13" name="P06 BIA completo y plan de continuidad" color="#a8d5a2" meeting="false" start="2028-04-03" duration="130" complete="0" expand="true"><depend id="6" type="2" difference="0" hardness="Strong"/></task>
+  </task>
+  <task id="3" name="Ola 3" color="#f2c78d" meeting="false" start="2029-01-01" duration="195" complete="0" expand="true">
+   <task id="14" name="P09 Compras y distribucion en el modulo del proveedor del POS" color="#f2c78d" meeting="false" start="2029-01-01" duration="195" complete="0" expand="true"><depend id="11" type="2" difference="0" hardness="Strong"/><depend id="8" type="2" difference="0" hardness="Strong"/></task>
+  </task>
+  <task id="15" name="PLAZO NORMATIVO DIGEMID - trazabilidad (P01)" color="#ff0000" meeting="true" start="2027-06-30" duration="0" complete="0" expand="true"/>
+  <task id="16" name="PLAZO NORMATIVO Ley 29733 (P02)" color="#ff0000" meeting="true" start="2027-06-30" duration="0" complete="0" expand="true"/>
+  <task id="17" name="HITO H1 - Decision: medir beneficios de Ola 1 y liberar Ola 2" color="#000000" meeting="true" start="2027-12-31" duration="0" complete="0" expand="true"/>
+  <task id="18" name="HITO H2 - Decision: cierre de Ola 2 y revision de P12" color="#000000" meeting="true" start="2028-12-29" duration="0" complete="0" expand="true"/>
+  <task id="19" name="HITO H3 - Cierre del plan y revision de P13 a P15" color="#000000" meeting="true" start="2029-12-31" duration="0" complete="0" expand="true"/>
+ </tasks>
+ <resources/>
+ <allocations/>
+ <vacations/>
+ <previous/>
+ <roles roleset-name="Default"/>
+</project>

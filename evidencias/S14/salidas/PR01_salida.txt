@@ -1,0 +1,9 @@
+PROYECTOS NO NEGOCIABLES (fuera del modelo)
+ P01 Trazabilidad de productos controlados
+    norma: DIGEMID (Ley 29459 y DS 023-2001-SA; a confirmar con asesor legal)
+    plazo: Exposicion vigente (diferencia de 214 unidades en 2025); meta interna 30-jun-2027
+ P02 Adecuacion a la Ley 29733 (datos de salud)
+    norma: Ley 29733 y DS 016-2024-JUS (vigente desde 30-mar-2025)
+    plazo: Designacion del Oficial: plazo de adecuacion vencido el 30-jun-2026 segun fuente secundaria (verificar); meta interna 30-jun-2027
+
+Candidatos totales: 15 | no negociables: 2 | compiten en el modelo: 13

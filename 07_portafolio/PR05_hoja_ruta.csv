@@ -1,0 +1,12 @@
+Proyecto,Ola,Año,Semestre,Inicio,Fin,Duración (meses),Depende de,Hito de decisión,Área usuaria afectada
+P01,1,2027,S1,2027-01,2027-06,6,,Plazo normativo DIGEMID 30-jun-2027 · piloto en 4 locales con diferencia antes de extender a los 23,Químicos farmacéuticos y 23 locales
+P02,1,2027,S1,2027-01,2027-06,6,,Plazo normativo Ley 29733 30-jun-2027 · Oficial de Datos Personales designado,Fidelización y Administración
+P05,1,2027,S1,2027-01,2027-03,3,,Prueba de restauración aprobada antes de liberar P06,Administración y Finanzas
+P04,1,2027,S1-S2,2027-04,2027-09,6,,Documentación validada por una segunda persona antes de liberar P03,Jefe de Sistemas y soporte
+P08,1,2027,S2,2027-07,2027-09,3,,Primera sesión del comité con caso de negocio aprobado; libera P09,Gerencia General
+P10,2,2028,S1,2028-01,2028-03,3,,Primer mes con incidentes registrados; libera P11,Todas las áreas
+P07,2,2028,S1,2028-01,2028-03,3,,Política de seguridad aprobada por Gerencia,Todas las áreas
+P03,2,2028,S1,2028-01,2028-06,6,P04,Dos semanas sin falla de consolidación antes de liberar P09,Compras y locales
+P11,2,2028,S1-S2,2028-04,2028-06,3,P10,Calendario de vencimientos aprobado,Administración
+P06,2,2028,S1-S2,2028-04,2028-09,6,P05,Prueba de recuperación del proceso de venta,Gerencia y locales
+P09,3,2029,S1-S2,2029-01,2029-09,9,P03;P08,Go/No-Go de extensión a los 23 locales y cierre del plan en dic-2029,Compras y distribución

@@ -1,0 +1,14 @@
+ranking,id,proyecto,puntaje,impacto,esfuerzo,cuadrante,tco_3a,decision,contribucion,riesgo_no_hacerlo,urgencia,habilitacion,beneficio_economico,impacto_social_ambiental,facilidad,aceptacion
+1,P03,Rediseno de la consolidacion nocturna,87.0,4.53,2.5,1 Alto impacto / bajo esfuerzo,48432.0,Ejecutar,5,5,4,5,4,3,3,4
+2,P04,Continuidad del conocimiento del POS y la consolidacion,82.0,4.18,2.0,1 Alto impacto / bajo esfuerzo,39168.0,Ejecutar,5,5,4,5,2,2,4,3
+3,P12,Reemplazo del POS por solucion en la nube,71.0,3.94,5.0,2 Alto impacto / alto esfuerzo,328800.0,NO EJECUTAR (excede la capacidad trianual),5,4,3,3,4,3,1,2
+4,P05,Respaldos completos y prueba de restauracion,69.0,3.24,1.0,1 Alto impacto / bajo esfuerzo,29520.0,Ejecutar,3,4,4,3,2,3,5,4
+5,P08,Gobierno de inversiones de TI,65.0,3.24,1.5,1 Alto impacto / bajo esfuerzo,8976.0,Ejecutar,3,4,3,5,3,1,4,2
+6,P07,Seguridad basica: MFA ampliado politica y capacitacion,62.0,3.0,1.5,1 Alto impacto / bajo esfuerzo,24060.0,Ejecutar,3,4,3,2,2,3,4,3
+7,P09,Compras y distribucion en el modulo del proveedor del POS,61.0,3.18,3.5,2 Alto impacto / alto esfuerzo,94500.0,Ejecutar,4,3,2,2,4,3,2,3
+8,P06,BIA completo y plan de continuidad,60.0,3.0,2.0,1 Alto impacto / bajo esfuerzo,25680.0,Ejecutar,3,4,3,2,2,3,3,3
+9,P11,Inventario de activos y control de contratos,52.0,2.24,1.0,3 Bajo impacto / bajo esfuerzo,5580.0,Ejecutar,2,3,2,3,2,1,5,4
+10,P10,Mesa de servicios ligera (incidentes y cambios),51.0,2.35,1.5,3 Bajo impacto / bajo esfuerzo,8784.0,Ejecutar,2,3,2,4,2,1,4,3
+11,P15,Analitica BI de ventas e inventario,39.0,1.76,3.0,4 Bajo impacto / alto esfuerzo,78000.0,NO EJECUTAR (cuadrante 4),2,1,2,1,3,2,3,3
+12,P14,App movil y comercio electronico,37.0,1.76,4.0,4 Bajo impacto / alto esfuerzo,161520.0,NO EJECUTAR (cuadrante 4),2,1,1,1,3,3,2,3
+13,P13,Videovigilancia fase 2 (ampliacion y analitica),30.0,1.35,4.0,4 Bajo impacto / alto esfuerzo,145440.0,NO EJECUTAR (cuadrante 4),1,2,1,1,1,2,2,3

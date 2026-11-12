@@ -1,0 +1,16 @@
+id,proyecto,descripcion,no_negociable,norma,plazo_norma,riesgo_origen,requiere_jefe,entra_al_modelo
+P01,Trazabilidad de productos controlados,Kardex digital de estupefacientes y retencion de detalle del POS mayor a 90 dias,True,DIGEMID (Ley 29459 y DS 023-2001-SA; a confirmar con asesor legal),Exposicion vigente (diferencia de 214 unidades en 2025); meta interna 30-jun-2027,Incidente del periodo y riesgo H2,1,False
+P02,Adecuacion a la Ley 29733 (datos de salud),Base legal y consentimiento en fidelizacion; banco de datos ante la ANPD; Oficial de Datos Personales,True,Ley 29733 y DS 016-2024-JUS (vigente desde 30-mar-2025),Designacion del Oficial: plazo de adecuacion vencido el 30-jun-2026 segun fuente secundaria (verificar); meta interna 30-jun-2027,Riesgo H3,0,False
+P03,Rediseno de la consolidacion nocturna,Reemplazar el proceso por archivos por una carga monitoreada con reproceso automatico,False,,,Falla 2 veces por semana; riesgo H1,1,True
+P04,Continuidad del conocimiento del POS y la consolidacion,Documentacion operativa y soporte de segunda linea con SLA para no depender de una persona,False,,,Riesgo H1,1,True
+P05,Respaldos completos y prueba de restauracion,Incluir los tres sistemas fuera de alcance y probar la restauracion,False,,,Hecho verificado de respaldos,0,True
+P06,BIA completo y plan de continuidad,Completar el BIA con RTO y RPO y formular BCP y DRP basicos,False,,,No existe plan de continuidad,0,True
+P07,Seguridad basica: MFA ampliado politica y capacitacion,MFA en sistemas criticos; aprobar la politica; capacitacion anual,False,,,Politica en borrador; MFA solo en correo,0,True
+P08,Gobierno de inversiones de TI,Reactivar el comite; caso de negocio; acta de aceptacion; medicion de beneficios,False,,,Tres inversiones sin medicion y +44.8% de desviacion,0,True
+P09,Compras y distribucion en el modulo del proveedor del POS,Reemplazar hojas de calculo y correo para compras y distribucion a 23 locales,False,,,Proceso 1 y 2 sin sistema,0,True
+P10,Mesa de servicios ligera (incidentes y cambios),Registro de incidentes y cambios previos a su aplicacion,False,,,No se registran incidentes; cambios post-hoc,0,True
+P11,Inventario de activos y control de contratos,Inventario vivo y calendario de vencimientos con proveedores,False,,,Inventario de hace 2 anos; contratos sin control,0,True
+P12,Reemplazo del POS por solucion en la nube,Migrar los 23 locales a una plataforma multisede con soporte,False,,,Dependencia del POS local y de una persona,1,True
+P13,Videovigilancia fase 2 (ampliacion y analitica),Ampliar camaras y agregar analitica de video,False,,,Expediente 1,0,True
+P14,App movil y comercio electronico,Canal digital de pedidos y delivery,False,,,Sin objetivo de TI asociado,0,True
+P15,Analitica BI de ventas e inventario,Almacen de datos y tableros gerenciales,False,,,Sin objetivo de TI asociado,0,True

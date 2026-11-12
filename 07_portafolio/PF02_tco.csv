@@ -1,0 +1,16 @@
+id,capex,opex_anual,gestion_cambio_pct,meses_ejecucion_tipica,supuesto
+P01,30000,6000,0.10,6,Modulo del proveedor del POS y almacenamiento; cotizacion por confirmar
+P02,18000,3600,0.10,6,Consultoria legal y tecnica; Oficial a tiempo parcial
+P03,28000,3600,0.12,6,Desarrollo y monitoreo de la carga nocturna
+P04,8000,9600,0.08,6,Soporte de segunda linea S/ 800 por mes
+P05,12000,4800,0.05,3,Almacenamiento adicional y licencias de respaldo
+P06,14000,2400,0.10,6,Consultoria BIA y BCP; pruebas anuales
+P07,7000,4800,0.15,3,Licencias MFA y capacitacion
+P08,4000,1200,0.12,3,Plantillas y acompanamiento
+P09,45000,10800,0.15,9,Modulo del proveedor del POS; migracion de datos
+P10,4000,1200,0.08,3,Herramienta de codigo abierto y hosting
+P11,3000,600,0.05,3,Carga del inventario y calendario
+P12,160000,36000,0.15,12,Plataforma multisede; migracion de 23 locales
+P13,90000,9600,0.08,9,Camaras y analitica; referencia del expediente 1
+P14,80000,18000,0.12,9,Desarrollo de app y pasarela
+P15,40000,8400,0.10,6,Almacen de datos y tableros
